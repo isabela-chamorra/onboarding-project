@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "UVLP4_SQ1_0000000019_BLACK_WHITE_SLf.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
