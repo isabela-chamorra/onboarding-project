@@ -78,35 +78,39 @@ extension HeroDetailScreen : CodeView {
     }
     
     func setupConstraints() {
-        imageView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 0).isActive = true
-        imageView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 0).isActive = true
-        imageView.topAnchor.constraint(equalTo: self.topAnchor, constant: 0).isActive = true
-        imageView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 0.4).isActive = true
+        NSLayoutConstraint.activate([
+            imageView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 0),
+            imageView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 0),
+            imageView.topAnchor.constraint(equalTo: self.topAnchor, constant: 0),
+            imageView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 0.4),
+            
+            nameTitleLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24),
+            nameTitleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24),
+            nameTitleLabel.topAnchor.constraint(equalTo: self.imageView.bottomAnchor, constant: 50),
+            nameTitleLabel.heightAnchor.constraint(equalToConstant: 20),
+            
+            nameLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24),
+            nameLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24),
+            nameLabel.topAnchor.constraint(equalTo: self.nameTitleLabel.bottomAnchor, constant: 10),
+            nameLabel.heightAnchor.constraint(equalToConstant: 22),
+            
+            descriptionTitleLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24),
+            descriptionTitleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24),
+            descriptionTitleLabel.topAnchor.constraint(equalTo: self.nameLabel.bottomAnchor, constant: 30),
+            descriptionTitleLabel.heightAnchor.constraint(equalToConstant: 20),
+            
+            descriptionTextView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24),
+            descriptionTextView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24),
+            descriptionTextView.topAnchor.constraint(equalTo: self.descriptionTitleLabel.bottomAnchor, constant: 10),
+            descriptionTextView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -40)
+        ])
         
 //        content.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24).isActive = true
 //        content.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24).isActive = true
 //        content.topAnchor.constraint(equalTo: self.imageView.topAnchor, constant: 50).isActive = true
 //        content.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -40).isActive = true
         
-        nameTitleLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24).isActive = true
-        nameTitleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24).isActive = true
-        nameTitleLabel.topAnchor.constraint(equalTo: self.imageView.bottomAnchor, constant: 50).isActive = true
-        nameTitleLabel.heightAnchor.constraint(equalToConstant: 20).isActive = true
         
-        nameLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24).isActive = true
-        nameLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24).isActive = true
-        nameLabel.topAnchor.constraint(equalTo: self.nameTitleLabel.bottomAnchor, constant: 10).isActive = true
-        nameLabel.heightAnchor.constraint(equalToConstant: 22).isActive = true
-        
-        descriptionTitleLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24).isActive = true
-        descriptionTitleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24).isActive = true
-        descriptionTitleLabel.topAnchor.constraint(equalTo: self.nameLabel.bottomAnchor, constant: 30).isActive = true
-        descriptionTitleLabel.heightAnchor.constraint(equalToConstant: 20).isActive = true
-        
-        descriptionTextView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24).isActive = true
-        descriptionTextView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24).isActive = true
-        descriptionTextView.topAnchor.constraint(equalTo: self.descriptionTitleLabel.bottomAnchor, constant: 10).isActive = true
-        descriptionTextView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -40).isActive = true
     }
     
     func setupAditionalConfiguration() {
