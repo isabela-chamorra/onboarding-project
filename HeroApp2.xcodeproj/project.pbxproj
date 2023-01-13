@@ -10,14 +10,9 @@
 		FC476E6029672839007F7DA6 /* ThumbnailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC476E5F29672839007F7DA6 /* ThumbnailModel.swift */; };
 		FC476E632967309E007F7DA6 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC476E622967309E007F7DA6 /* UIImageViewExtension.swift */; };
 		FC476E65296785D7007F7DA6 /* HeroDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC476E64296785D7007F7DA6 /* HeroDetailViewModel.swift */; };
-		FC95F4DA296DB8E70068A2CA /* View Model in Resources */ = {isa = PBXBuildFile; fileRef = FC95F4D1296DB8E70068A2CA /* View Model */; };
-		FC95F4DB296DB8E70068A2CA /* HeroApp2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC95F4D2296DB8E70068A2CA /* HeroApp2.xcdatamodeld */; };
-		FC95F4DC296DB8E70068A2CA /* View in Resources */ = {isa = PBXBuildFile; fileRef = FC95F4D4296DB8E70068A2CA /* View */; };
-		FC95F4DD296DB8E70068A2CA /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FC95F4D5296DB8E70068A2CA /* Base.lproj */; };
-		FC95F4DE296DB8E70068A2CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC95F4D6296DB8E70068A2CA /* Assets.xcassets */; };
-		FC95F4DF296DB8E70068A2CA /* Model in Resources */ = {isa = PBXBuildFile; fileRef = FC95F4D7296DB8E70068A2CA /* Model */; };
-		FC95F4E0296DB8E70068A2CA /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = FC95F4D8296DB8E70068A2CA /* Extensions */; };
-		FC95F4E1296DB8E70068A2CA /* Service in Resources */ = {isa = PBXBuildFile; fileRef = FC95F4D9296DB8E70068A2CA /* Service */; };
+		FC5AE3062971798C00E54CB1 /* HeroDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5AE3052971798C00E54CB1 /* HeroDetailScreen.swift */; };
+		FC5AE3082971878100E54CB1 /* CodeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5AE3072971878100E54CB1 /* CodeViewProtocol.swift */; };
+		FC5AE30A297194C600E54CB1 /* HeroDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5AE309297194C600E54CB1 /* HeroDetailContent.swift */; };
 		FCDD7E68294C98AB0052ECC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD7E67294C98AB0052ECC5 /* AppDelegate.swift */; };
 		FCDD7E6A294C98AB0052ECC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD7E69294C98AB0052ECC5 /* SceneDelegate.swift */; };
 		FCDD7E6C294C98AB0052ECC5 /* HerosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD7E6B294C98AB0052ECC5 /* HerosListView.swift */; };
@@ -60,14 +55,9 @@
 		FC476E5F29672839007F7DA6 /* ThumbnailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailModel.swift; sourceTree = "<group>"; };
 		FC476E622967309E007F7DA6 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		FC476E64296785D7007F7DA6 /* HeroDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewModel.swift; sourceTree = "<group>"; };
-		FC95F4D1296DB8E70068A2CA /* View Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "View Model"; path = "HeroApp2/View Model"; sourceTree = "<group>"; };
-		FC95F4D3296DB8E70068A2CA /* HeroApp2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeroApp2.xcdatamodel; sourceTree = "<group>"; };
-		FC95F4D4296DB8E70068A2CA /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; name = View; path = HeroApp2/View; sourceTree = "<group>"; };
-		FC95F4D5296DB8E70068A2CA /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = HeroApp2/Base.lproj; sourceTree = "<group>"; };
-		FC95F4D6296DB8E70068A2CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = HeroApp2/Assets.xcassets; sourceTree = "<group>"; };
-		FC95F4D7296DB8E70068A2CA /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Model; path = HeroApp2/Model; sourceTree = "<group>"; };
-		FC95F4D8296DB8E70068A2CA /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extensions; path = HeroApp2/Extensions; sourceTree = "<group>"; };
-		FC95F4D9296DB8E70068A2CA /* Service */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Service; path = HeroApp2/Service; sourceTree = "<group>"; };
+		FC5AE3052971798C00E54CB1 /* HeroDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailScreen.swift; sourceTree = "<group>"; };
+		FC5AE3072971878100E54CB1 /* CodeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewProtocol.swift; sourceTree = "<group>"; };
+		FC5AE309297194C600E54CB1 /* HeroDetailContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailContent.swift; sourceTree = "<group>"; };
 		FCDD7E64294C98AB0052ECC5 /* HeroApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDD7E67294C98AB0052ECC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCDD7E69294C98AB0052ECC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,17 +116,26 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		FC5AE3032971795500E54CB1 /* HerosList */ = {
+			isa = PBXGroup;
+			children = (
+				FCE7ED332955A68200F35B0D /* CustomCell.swift */,
+			);
+			path = HerosList;
+			sourceTree = "<group>";
+		};
+		FC5AE3042971796700E54CB1 /* HeroDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FC5AE3052971798C00E54CB1 /* HeroDetailScreen.swift */,
+				FC5AE309297194C600E54CB1 /* HeroDetailContent.swift */,
+			);
+			path = HeroDetail;
+			sourceTree = "<group>";
+		};
 		FCDD7E5B294C98AB0052ECC5 = {
 			isa = PBXGroup;
 			children = (
-				FC95F4D6296DB8E70068A2CA /* Assets.xcassets */,
-				FC95F4D5296DB8E70068A2CA /* Base.lproj */,
-				FC95F4D8296DB8E70068A2CA /* Extensions */,
-				FC95F4D2296DB8E70068A2CA /* HeroApp2.xcdatamodeld */,
-				FC95F4D7296DB8E70068A2CA /* Model */,
-				FC95F4D9296DB8E70068A2CA /* Service */,
-				FC95F4D4296DB8E70068A2CA /* View */,
-				FC95F4D1296DB8E70068A2CA /* View Model */,
 				FCDD7E66294C98AB0052ECC5 /* HeroApp2 */,
 				FCDD7E80294C98AF0052ECC5 /* HeroApp2Tests */,
 				FCDD7E8A294C98AF0052ECC5 /* HeroApp2UITests */,
@@ -223,7 +222,9 @@
 		FCE7ED412959EA2D00F35B0D /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FCE7ED332955A68200F35B0D /* CustomCell.swift */,
+				FC5AE3072971878100E54CB1 /* CodeViewProtocol.swift */,
+				FC5AE3042971796700E54CB1 /* HeroDetail */,
+				FC5AE3032971795500E54CB1 /* HerosList */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -342,15 +343,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC95F4E0296DB8E70068A2CA /* Extensions in Resources */,
 				FCDD7E77294C98AE0052ECC5 /* LaunchScreen.storyboard in Resources */,
 				FCDD7E74294C98AE0052ECC5 /* Assets.xcassets in Resources */,
-				FC95F4DA296DB8E70068A2CA /* View Model in Resources */,
-				FC95F4E1296DB8E70068A2CA /* Service in Resources */,
-				FC95F4DC296DB8E70068A2CA /* View in Resources */,
-				FC95F4DE296DB8E70068A2CA /* Assets.xcassets in Resources */,
-				FC95F4DD296DB8E70068A2CA /* Base.lproj in Resources */,
-				FC95F4DF296DB8E70068A2CA /* Model in Resources */,
 				FCDD7E6F294C98AB0052ECC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,12 +380,14 @@
 				FCE7ED362955A70600F35B0D /* HeroDetailView.swift in Sources */,
 				FCDD7E68294C98AB0052ECC5 /* AppDelegate.swift in Sources */,
 				FCDD7E72294C98AB0052ECC5 /* HeroApp2.xcdatamodeld in Sources */,
+				FC5AE3062971798C00E54CB1 /* HeroDetailScreen.swift in Sources */,
 				FCE7ED392955ACDB00F35B0D /* HeroModel.swift in Sources */,
 				FCE7ED342955A68200F35B0D /* CustomCell.swift in Sources */,
-				FC95F4DB296DB8E70068A2CA /* HeroApp2.xcdatamodeld in Sources */,
+				FC5AE3082971878100E54CB1 /* CodeViewProtocol.swift in Sources */,
 				FCE7ED45295ED21200F35B0D /* APIService.swift in Sources */,
 				FCDD7E6A294C98AB0052ECC5 /* SceneDelegate.swift in Sources */,
 				FCE7ED3B2955AEFD00F35B0D /* data_mock.swift in Sources */,
+				FC5AE30A297194C600E54CB1 /* HeroDetailContent.swift in Sources */,
 				FCE7ED3D2955B48300F35B0D /* HerosListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,17 +726,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FC95F4D2296DB8E70068A2CA /* HeroApp2.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				FC95F4D3296DB8E70068A2CA /* HeroApp2.xcdatamodel */,
-			);
-			currentVersion = FC95F4D3296DB8E70068A2CA /* HeroApp2.xcdatamodel */;
-			name = HeroApp2.xcdatamodeld;
-			path = HeroApp2/HeroApp2.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		FCDD7E70294C98AB0052ECC5 /* HeroApp2.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

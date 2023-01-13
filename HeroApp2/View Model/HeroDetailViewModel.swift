@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 class HeroDetailViewModel{
-    var hero : Hero
+    private var hero : Hero
     
     init (hero : Hero){
         self.hero = hero
@@ -11,4 +11,9 @@ class HeroDetailViewModel{
             self.hero.description = "Description not available."
         }
     }
+    
+    func getHero() -> Hero{
+        return hero
+    }
+    
 }
